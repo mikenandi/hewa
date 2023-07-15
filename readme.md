@@ -63,4 +63,4 @@ A video preview of the Hewa app can be found [here](https://example.com/hewa-pre
 
 ## APK Files
 
-APK files for previewing the app can be found in the [App Releases](app-releases/) folder. Please download the appropriate APK file based on your device's architecture.
+APK files for previewing the app can be found in the [App Releases](releases/) folder. Please download the appropriate APK file based on your device's architecture.
