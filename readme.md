@@ -6,6 +6,7 @@ Hewa is a weather app that allows users to check the current weather conditions 
 
 - [Features](#features)
 - [Folder Structure](#folder-structure)
+- [Design](#design)
 - [Preview](#preview)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -34,6 +35,10 @@ The project has the following folder structure:
 ├── assets/            # Static assets (images, fonts, etc.)
 └── ...
 ```
+
+## Design
+
+The design of the Hewa app can be accessed [here](https://www.figma.com/file/iYTa0lglZwQbvbeMFKEMR1/Weather-App?type=design&node-id=105-4726&mode=design&t=7L56UAoH9NYgIxw3-0).
 
 ## Preview
 
