@@ -32,8 +32,7 @@ The project has the following folder structure:
 ├── layouts/           # Layout components for structuring the UI
 ├── navigation/        # Navigation configuration
 ├── screens/           # App screens
-├── assets/            # Static assets (images, fonts, etc.)
-└── ...
+└── ..
 ```
 
 ## Design
