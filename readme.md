@@ -7,7 +7,6 @@ Hewa is a weather app that allows users to check the current weather conditions 
 - [Features](#features)
 - [Folder Structure](#folder-structure)
 - [Design](#design)
-- [Preview](#preview)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -24,24 +23,25 @@ Hewa is a weather app that allows users to check the current weather conditions 
 The project has the following folder structure:
 
 ```
-├── components/        # Reusable UI components
-├── constants/         # Constants and configuration files
-├── utils/             # Utility functions and helper modules
-├── services/          # API services for fetching weather data
-├── redux/             # Redux related files (actions, reducers, store)
-├── layouts/           # Layout components for structuring the UI
-├── navigation/        # Navigation configuration
-├── screens/           # App screens
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── constants/         # Constants and configuration files
+│   ├── utils/             # Utility functions and helper modules
+│   ├── services/          # API services for fetching weather data
+│   ├── redux/             # Redux related files (actions, reducers, store)
+│   ├── layouts/           # Layout components for structuring the UI
+│   ├── navigation/        # Navigation configuration
+│   └── screens/           # App screens
+│
+├── App.js                 # Entry point of the application
+├── package.json           # Project dependencies and scripts
 └── ..
+
 ```
 
 ## Design
 
 The design of the Hewa app can be accessed [here](https://www.figma.com/file/iYTa0lglZwQbvbeMFKEMR1/Weather-App?type=design&node-id=105-4726&mode=design&t=7L56UAoH9NYgIxw3-0).
-
-## Preview
-
-A video preview of the Hewa app can be found [here](https://example.com/hewa-preview).
 
 ## Technologies Used
 
