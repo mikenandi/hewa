@@ -22,7 +22,8 @@
         "foregroundImage": "./assets/app-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.michael.nandi.weatherapp"
+      "package": "com.michael.nandi.weatherapp",
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/favicon.png"
