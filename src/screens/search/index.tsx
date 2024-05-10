@@ -5,8 +5,8 @@ import {
   TextInput,
   useWindowDimensions,
   Modal,
-  Keyboard,
   Text,
+  Keyboard,
 } from "react-native";
 import Colors from "../../costants/Colors";
 import { Button } from "react-native-paper";
@@ -40,6 +40,8 @@ export const Search: React.FC = () => {
   };
 
   const handleSearch = () => {
+    Keyboard.dismiss();
+
     dispatch(searchVisibleReducer());
   };
 
@@ -80,6 +82,7 @@ export const Search: React.FC = () => {
             icon="magnify"
             buttonColor={Colors.secondary}
             style={styles.buttonStyle}
+            labelStyle={styles.labelStyle}
             onPress={handleSearch}
           >
             Search
@@ -119,9 +122,13 @@ const styles = StyleSheet.create({
   errorText: {
     textAlign: "center",
     color: Colors.lightgray,
-    fontSize: 20,
-    fontWeight: "600",
+    fontSize: 18,
+    // fontWeight: "600",
     lineHeight: 34.2,
     marginBottom: 10,
+    fontFamily: "PoppinsRegular",
+  },
+  labelStyle: {
+    fontFamily: "InterSemiBold",
   },
 });

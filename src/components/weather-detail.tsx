@@ -38,8 +38,10 @@ const styles = StyleSheet.create({
   labelText: {
     marginLeft: 16,
     fontSize: 16,
-    fontWeight: "700",
+    // fontWeight: "700",
     lineHeight: 19.44,
     color: Colors.white,
+    // fontFamily: "PoppinsRegular",
+    fontFamily: "DMSansMedium",
   },
 });

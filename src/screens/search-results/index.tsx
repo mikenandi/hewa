@@ -139,10 +139,10 @@ export const SearchResults: React.FC = () => {
           detailName="Windspeed"
           detailValue={`${weather?.wind.speed} km/h`}
         >
-          <MaterialCommunityIcons
-            name="weather-windy"
-            size={38}
-            color={Colors.white}
+          <Image
+            tintColor={Colors.white}
+            source={require("../../../assets/wind.png")}
+            style={styles.imgIcon}
           />
         </WeatherDetail>
 
@@ -150,17 +150,21 @@ export const SearchResults: React.FC = () => {
           detailName={getCurrentDate()}
           detailValue={getCurrentTime()}
         >
-          <MaterialCommunityIcons
-            name="calendar-month"
-            size={38}
-            color={Colors.white}
+          <Image
+            tintColor={Colors.white}
+            source={require("../../../assets/schedule.png")}
+            style={styles.imgIcon}
           />
         </WeatherDetail>
         <WeatherDetail
           detailName="Humidity"
           detailValue={`${weather?.main.humidity} %`}
         >
-          <Ionicons name="ios-cloud-outline" size={38} color={Colors.white} />
+          <Image
+            tintColor={Colors.white}
+            source={require("../../../assets/humidity.png")}
+            style={styles.imgIcon}
+          />
         </WeatherDetail>
       </View>
     </>
@@ -241,5 +245,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "flex-end",
     marginTop: 16,
+  },
+  imgIcon: {
+    width: 40,
+    height: undefined,
+    aspectRatio: 1 / 1,
   },
 });

@@ -56,7 +56,8 @@ export const Home: React.FC = () => {
   useEffect(() => {
     (async () => {
       setIsLoading(true);
-      let response = await getWeather("Dar es Salaam");
+
+      const response = await getWeather("Dar es Salaam");
 
       setWeather(response);
 
@@ -64,7 +65,7 @@ export const Home: React.FC = () => {
     })();
   }, []);
 
-  if (isLoading) {
+  if (isLoading || false) {
     return (
       <>
         <Loader />
@@ -106,7 +107,7 @@ export const Home: React.FC = () => {
           <View>
             <Text style={styles.feelsLikeText}>
               Feels like{" "}
-              <Text style={{ fontWeight: "700", color: Colors.secondary }}>
+              <Text style={{ fontFamily: "LatoBold", color: Colors.secondary }}>
                 {tempValue(weather?.main.feels_like || 0)} °C
               </Text>
             </Text>
@@ -120,10 +121,10 @@ export const Home: React.FC = () => {
           detailName="Windspeed"
           detailValue={`${weather?.wind.speed} km/h`}
         >
-          <MaterialCommunityIcons
-            name="weather-windy"
-            size={38}
-            color={Colors.white}
+          <Image
+            tintColor={Colors.white}
+            source={require("../../../assets/wind.png")}
+            style={styles.imgIcon}
           />
         </WeatherDetail>
 
@@ -131,17 +132,21 @@ export const Home: React.FC = () => {
           detailName={getCurrentDate()}
           detailValue={getCurrentTime()}
         >
-          <MaterialCommunityIcons
-            name="calendar-month"
-            size={38}
-            color={Colors.white}
+          <Image
+            tintColor={Colors.white}
+            source={require("../../../assets/schedule.png")}
+            style={styles.imgIcon}
           />
         </WeatherDetail>
         <WeatherDetail
           detailName="Humidity"
           detailValue={`${weather?.main.humidity} %`}
         >
-          <Ionicons name="ios-cloud-outline" size={38} color={Colors.white} />
+          <Image
+            tintColor={Colors.white}
+            source={require("../../../assets/humidity.png")}
+            style={styles.imgIcon}
+          />
         </WeatherDetail>
       </View>
     </>
@@ -156,9 +161,10 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   locationText: {
-    fontWeight: "700",
+    // fontWeight: "700",
     fontSize: 30,
     color: Colors.white,
+    fontFamily: "DMSansMedium",
   },
   locationContainer: {
     width: "100%",
@@ -175,8 +181,9 @@ const styles = StyleSheet.create({
   },
   temperatureValueText: {
     fontSize: 130,
-    fontWeight: "700",
+    // fontWeight: "700",
     // lineHeight: 157.95,
+    fontFamily: "LatoSemiBold",
     textAlign: "center",
     color: Colors.white,
   },
@@ -189,7 +196,8 @@ const styles = StyleSheet.create({
     height: 60,
   },
   feelsLikeText: {
-    fontWeight: "400",
+    // fontWeight: "400",
+    fontFamily: "LatoRegular",
     fontSize: 22,
     lineHeight: 26.73,
     color: Colors.white,
@@ -219,5 +227,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "flex-end",
     marginTop: 16,
+  },
+  imgIcon: {
+    width: 40,
+    height: undefined,
+    aspectRatio: 1 / 1,
   },
 });

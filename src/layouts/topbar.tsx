@@ -29,8 +29,9 @@ const styles = StyleSheet.create({
   },
   logoText: {
     fontSize: 30,
-    fontWeight: "700",
+    // fontWeight: "700",
     color: Colors.white,
+    fontFamily: "DMSansBold",
   },
   dotIcon: {
     marginTop: 14,
