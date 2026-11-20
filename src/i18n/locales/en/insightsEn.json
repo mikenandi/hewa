@@ -1,0 +1,178 @@
+{
+  "tabTitle": "Insights",
+  "subtitle": "What today's weather means for you",
+  "topToday": "Most important today",
+  "planner": "Day planner",
+  "plannerHint": "Coloured hours show when each applies",
+  "rows": {
+    "rain": "Rain",
+    "heat": "Heat",
+    "sun": "Strong sun",
+    "mosquito": "Mosquitoes",
+    "exercise": "Exercise",
+    "drying": "Drying"
+  },
+  "now": "Now",
+  "tomorrowPlan": "Tomorrow",
+  "all": "All insights",
+  "categories": {
+    "all": "All",
+    "health": "Health",
+    "home": "Home",
+    "travel": "Travel",
+    "farm": "Farm & water"
+  },
+  "severity": {
+    "warning": "Warning",
+    "tip": "Tip",
+    "info": "Good to know"
+  },
+  "why": "Why?",
+  "hideWhy": "Hide",
+  "empty": "Nothing special today — enjoy your day!",
+  "listen": "Listen to insights",
+  "stop": "Stop",
+  "didYouKnow": "Did you know?",
+  "enums": {
+    "today": "today",
+    "tomorrow": "tomorrow",
+    "medium": "medium",
+    "high": "high",
+    "windy": "it is too windy",
+    "rain": "rain is expected",
+    "calm": "the air is calm",
+    "vuli": "Vuli",
+    "masika": "Masika",
+    "msimu": "Msimu"
+  },
+  "items": {
+    "heat": {
+      "title": "Stay cool and drink water",
+      "message": "Feels like up to {{peak}} between {{start}} and {{end}}. Drink water often, even before you feel thirsty, and rest in the shade.",
+      "why": "Your body struggles to cool down when it feels hotter than 32°C, especially in humid air."
+    },
+    "uv": {
+      "title": "Strong sun {{start}} – {{end}}",
+      "message": "UV index up to {{uv}}. Wear a hat, cover your skin and keep children in the shade.",
+      "why": "UV of 8 or more can burn skin and damage eyes in under 20 minutes."
+    },
+    "airQuality": {
+      "title": "Unhealthy air today",
+      "message": "Air quality index {{aqi}}. People with asthma, children and older people should limit long outdoor activity.",
+      "why": "Fine particles from smoke, dust and traffic irritate the lungs when the index is above 100."
+    },
+    "dust": {
+      "title": "Dusty air",
+      "message": "Cover your nose and mouth on busy or dusty roads, and keep food covered.",
+      "why": "Dust in the air is about {{dust}} µg/m³ — high enough to irritate eyes and lungs."
+    },
+    "mosquito": {
+      "title": "Mosquitoes bite most after {{sunset}}",
+      "message": "Mosquito activity is {{level}}. Sleep under a treated net and cover arms and legs in the evening.",
+      "why": "Warm, humid weather after rain helps mosquitoes breed. Malaria mosquitoes bite mostly at night."
+    },
+    "treatWater": {
+      "title": "Boil or treat drinking water",
+      "message": "Heavy rain can wash dirt into wells and taps. Boil or treat drinking water and wash hands with soap.",
+      "why": "About {{rain}} mm of rain fell recently — diseases like cholera spread more after heavy rain and floods."
+    },
+    "coldNight": {
+      "title": "Cold night: {{low}}",
+      "message": "Keep babies, children and older people warm and dry tonight.",
+      "why": "Night temperatures this low are common in highland areas and are hard on the very young and old."
+    },
+    "warmNight": {
+      "title": "Warm, humid night",
+      "message": "Let air flow through the room if it is safe, and drink water before bed.",
+      "why": "Tonight will not drop below {{low}}, so the body rests less well."
+    },
+    "exercise": {
+      "title": "Best time to walk or exercise: {{time}}",
+      "message": "The coolest dry hour {{day}}, with gentle sun.",
+      "why": "Chosen from early morning and evening hours with no rain, the lowest 'feels like' temperature and low UV."
+    },
+    "lightning": {
+      "title": "Lightning likely from {{time}}",
+      "message": "Stay indoors during the storm, keep away from tall trees, open fields and water, and unplug electronics.",
+      "why": "Thunderstorms are forecast. If you can hear thunder, lightning is close enough to strike."
+    },
+    "wind": {
+      "title": "Strong winds up to {{gust}} km/h",
+      "message": "Secure iron roof sheets, doors, signboards and anything loose outside.",
+      "why": "Gusts above 50 km/h can lift loose roofing and break branches."
+    },
+    "rainwater": {
+      "title": "Collect rainwater",
+      "message": "About {{mm}} mm of rain is expected from {{time}} {{day}}. Put out clean containers and clean your gutters.",
+      "why": "Every 1 mm of rain on 10 m² of roof gives about 10 litres — about {{litres}} litres from this rain."
+    },
+    "solarGood": {
+      "title": "Great day for solar charging",
+      "message": "About {{hours}} hours of sunshine. Charge solar lamps, phones and power banks.",
+      "why": "Solar panels charge fastest in direct sunshine around midday."
+    },
+    "solarLow": {
+      "title": "Little sun for solar today",
+      "message": "Only about {{hours}} hours of sunshine. Charge phones and lamps whenever you can and save power tonight.",
+      "why": "Thick clouds cut solar panel output a lot."
+    },
+    "drying": {
+      "title": "Good drying {{day}}: {{start}} – {{end}}",
+      "message": "Hang clothes or spread crops out in this window.",
+      "why": "Dry, sunny and not too humid hours dry things fastest."
+    },
+    "bestDay": {
+      "title": "Best day this week: {{weekday}}",
+      "message": "Good for outdoor plans like weddings, markets or travel — only {{rain}}% chance of rain.",
+      "why": "Picked from the next 6 days for the lowest rain and most comfortable temperature."
+    },
+    "roads": {
+      "title": "Roads may flood or be muddy",
+      "message": "Plan extra travel time, never cross flooded roads or bridges, and drive or ride slowly.",
+      "why": "About {{mm}} mm of rain is expected — enough to flood drains and soften dirt roads."
+    },
+    "fog": {
+      "title": "Fog from {{time}}",
+      "message": "Drive with lights on and keep extra distance.",
+      "why": "Fog is forecast, which can cut visibility to a few metres."
+    },
+    "seasonSoon": {
+      "title": "{{season}} may start around {{date}}",
+      "message": "Get seeds and fields ready — the forecast shows enough rain to start the season.",
+      "why": "Season start = 20 mm of rain within 3 days, with no long dry spell after."
+    },
+    "sprayOk": {
+      "title": "Good time to spray crops",
+      "message": "Calm air and no rain expected for the next few hours.",
+      "why": "Spray drifts in wind and washes off in rain; {{reason}} now."
+    },
+    "sprayWait": {
+      "title": "Wait before spraying",
+      "message": "Spraying now would waste chemicals.",
+      "why": "Spraying works poorly because {{reason}}."
+    },
+    "moonDark": {
+      "title": "Dark moon nights",
+      "message": "Good nights for dagaa fishing with lamps.",
+      "why": "With little moonlight, fish gather more strongly around lamps."
+    },
+    "moonBright": {
+      "title": "Bright moon nights",
+      "message": "Dagaa catches with lamps are usually lower around full moon.",
+      "why": "Bright moonlight spreads fish out instead of drawing them to lamps."
+    }
+  },
+  "facts": {
+    "humidity": "Humid air makes sweat dry slowly, so it feels hotter than the thermometer says.",
+    "thunder": "If you can hear thunder, you are close enough to be struck by lightning. Go indoors.",
+    "cloudyUv": "Clouds do not block all UV — you can still get sunburnt on a cloudy day.",
+    "rainLitres": "1 mm of rain on 1 m² of roof gives 1 litre of water. A 30 m² roof collects 300 litres from 10 mm of rain.",
+    "mosquitoNight": "Malaria mosquitoes bite mostly between late evening and early morning — nets matter most at night.",
+    "altitude": "Air cools about 6°C for every 1,000 m you climb — that is why Mbeya, Iringa and Arusha nights are cold.",
+    "daylight": "Being near the equator, Tanzania gets about 12 hours of daylight all year round.",
+    "dewPoint": "The dew point shows how much water is in the air: above 20°C feels sticky and humid.",
+    "uvMidday": "UV is strongest between 10:00 and 14:00 near the equator — even when it does not feel hot."
+  },
+  "notifyToggle": "Insight reminders",
+  "notifyHint": "Timely reminders: lightning, rainwater, treat water, mosquitoes, cold nights, heat, roads"
+}

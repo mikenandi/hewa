@@ -1,0 +1,15 @@
+{
+  "veryHot": "Very hot",
+  "veryHotHumid": "Very hot and humid",
+  "hot": "Hot",
+  "hotHumid": "Hot and humid",
+  "pleasant": "Pleasant",
+  "cool": "Cool",
+  "cold": "Cold",
+  "stormsFrom": "storms likely from {{time}}",
+  "rainFrom": "rain likely from {{time}}",
+  "rainPossible": "a chance of rain later",
+  "dry": "staying dry",
+  "windy": "Gusty winds.",
+  "highUv": "High UV around midday."
+}

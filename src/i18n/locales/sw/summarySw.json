@@ -1,0 +1,15 @@
+{
+  "veryHot": "Joto kali sana",
+  "veryHotHumid": "Joto kali sana na unyevu mwingi",
+  "hot": "Joto",
+  "hotHumid": "Joto na unyevu mwingi",
+  "pleasant": "Hali nzuri",
+  "cool": "Baridi kidogo",
+  "cold": "Baridi",
+  "stormsFrom": "radi zinatarajiwa kuanzia {{time}}",
+  "rainFrom": "mvua inatarajiwa kuanzia {{time}}",
+  "rainPossible": "huenda mvua ikanyesha baadaye",
+  "dry": "hakuna mvua",
+  "windy": "Upepo mkali.",
+  "highUv": "Mionzi mikali ya jua mchana."
+}

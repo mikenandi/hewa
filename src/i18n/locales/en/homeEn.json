@@ -1,0 +1,191 @@
+{
+  "feelsLike": "Feels like",
+  "windspeed": "Windspeed",
+  "humidity": "Humidity",
+  "offline": "Offline · last updated {{time}}",
+  "loadError": "Could not load the weather. Pull down to try again.",
+  "hourly": "Next 24 hours",
+  "daily": "10-day forecast",
+  "details": "Details",
+  "uvIndex": "UV index",
+  "uvLevels": {
+    "low": "Low",
+    "moderate": "Moderate",
+    "high": "High",
+    "veryHigh": "Very high",
+    "extreme": "Extreme"
+  },
+  "pressure": "Pressure",
+  "visibility": "Visibility",
+  "dewPoint": "Dew point",
+  "precipitation": "Rain today",
+  "cloudCover": "Cloud cover",
+  "wind": "Wind",
+  "gusts": "Gusts {{value}} {{unit}}",
+  "from": "From {{direction}}",
+  "airQuality": "Air quality",
+  "aqiLevels": {
+    "good": "Good",
+    "moderate": "Moderate",
+    "sensitive": "Unhealthy for sensitive groups",
+    "unhealthy": "Unhealthy",
+    "veryUnhealthy": "Very unhealthy",
+    "hazardous": "Hazardous"
+  },
+  "sun": "Sunrise & sunset",
+  "sunrise": "Sunrise",
+  "sunset": "Sunset",
+  "daylight": "{{hours}}h {{minutes}}m of daylight",
+  "lastYear": {
+    "warmer": "Today's high is {{diff}}° warmer than this day last year.",
+    "cooler": "Today's high is {{diff}}° cooler than this day last year.",
+    "same": "Today's high is about the same as this day last year."
+  },
+  "farmer": {
+    "title": "Farmer mode",
+    "spray": "Spraying",
+    "sprayOk": "Good time to spray",
+    "sprayWindy": "Too windy to spray",
+    "sprayRain": "Rain expected — wait",
+    "planting": "Planting",
+    "plantingMoist": "Soil is moist — good for planting",
+    "plantingRainComing": "Rain coming — good for planting",
+    "plantingDry": "Soil is dry — irrigate first",
+    "soilMoisture": "Soil moisture",
+    "rain7": "Rain next 7 days",
+    "et0": "Water loss (ET₀)"
+  },
+  "marine": {
+    "title": "Sea conditions",
+    "waves": "Waves",
+    "swell": "Swell",
+    "period": "Wave period",
+    "seaTemp": "Sea temperature",
+    "maxToday": "Max today {{value}} m",
+    "calm": "Calm sea",
+    "moderate": "Moderate sea",
+    "rough": "Rough sea — take care"
+  },
+  "alerts": {
+    "heavyRain": "Heavy rain: about {{value}} mm in the next 24 hours",
+    "strongWind": "Strong wind: gusts up to {{value}} km/h",
+    "extremeHeat": "Extreme heat: up to {{value}}°C",
+    "extremeUv": "Extreme UV index ({{value}}) — avoid midday sun",
+    "thunderstorms": "Thunderstorms likely ({{value}}%)",
+    "riverFlood": "Possible river flooding near you in the coming days",
+    "waterDanger": "Dangerous conditions on the water tonight — do not go out"
+  },
+  "currentLocation": "Current location",
+  "high": "H",
+  "low": "L",
+  "rainChance": "Rain",
+  "drying": {
+    "title": "Drying day",
+    "hint": "Clothes, maize, coffee, cassava, fish",
+    "today": "today",
+    "tomorrow": "tomorrow",
+    "good": "Good for drying {{day}}, {{start}} – {{end}}",
+    "fair": "Short drying window {{day}}: {{start}} – {{end}}",
+    "poor": "Poor drying {{day}} — too wet or cloudy",
+    "rainAfter": "Rain expected after {{time}} — bring things in"
+  },
+  "health": {
+    "title": "Health",
+    "mosquito": "Mosquito activity",
+    "mosquitoLevels": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "mosquitoTips": {
+      "low": "Few mosquitoes expected.",
+      "medium": "Sleep under a treated mosquito net.",
+      "high": "Sleep under a treated net and empty standing water around the house."
+    },
+    "mosquitoNote": "Estimated from weather — not a malaria forecast.",
+    "heat": "Heat",
+    "heatNone": "No heat stress expected today.",
+    "heatCaution": "Hot {{start}} – {{end}} (feels like {{peak}}°). Drink water and rest in the shade.",
+    "heatDanger": "Dangerous heat {{start}} – {{end}} (feels like {{peak}}°). Avoid heavy work outside."
+  },
+  "commute": {
+    "title": "Your trips",
+    "morning": "Morning trip",
+    "evening": "Evening trip",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "dry": "Dry — no rain expected",
+    "maybe": "Chance of rain ({{probability}}%)",
+    "rain": "Rain likely ({{probability}}%)",
+    "leaveBefore": "Leave before {{time}}",
+    "umbrella": "Carry an umbrella or raincoat"
+  },
+  "season": {
+    "title": "Rainy season",
+    "names": {
+      "vuli": "Short rains (Vuli)",
+      "masika": "Long rains (Masika)",
+      "msimu": "Rainy season (Msimu)"
+    },
+    "upcoming": "Usually starts from {{date}}",
+    "notStarted": "Not started yet",
+    "started": "Started on {{date}}",
+    "provisional": "Recent start — a dry spell could still make it a false start.",
+    "falseStart": "False start: rain on {{date}} was followed by a dry spell.",
+    "possibleOnset": "Forecast: enough rain to start the season around {{date}}.",
+    "noOnsetSoon": "No season-starting rain in the next two weeks.",
+    "drySpell": "Dry spell: {{days}} days without rain.",
+    "totalSoFar": "Rain so far",
+    "ofNormal": "{{percent}}% of normal",
+    "normalSeason": "A normal season brings about {{value}} mm.",
+    "rule": "Season start = 20 mm of rain within 3 days, with no 7-day dry spell after."
+  },
+  "flood": {
+    "title": "River flood risk",
+    "normal": "Rivers near you are at normal levels.",
+    "elevated": "Rivers near you will be higher than usual around {{date}}.",
+    "high": "Possible river flooding around {{date}}. Avoid river banks and flooded roads.",
+    "detail": "Peak flow {{peak}} m³/s · usual {{typical}} m³/s"
+  },
+  "water": {
+    "title": "Fishers' safety",
+    "places": {
+      "victoria": "Lake Victoria",
+      "tanganyika": "Lake Tanganyika",
+      "nyasa": "Lake Nyasa",
+      "coast": "Coast"
+    },
+    "tonight": "Tonight",
+    "tomorrowMorning": "Tomorrow morning",
+    "levels": {
+      "safe": "Safe to go out",
+      "caution": "Be careful",
+      "danger": "Do not go out"
+    },
+    "reasons": {
+      "storms": "storms",
+      "gusts": "strong gusts",
+      "waves": "high waves"
+    },
+    "because": "Because of {{reasons}}",
+    "gustPeak": "Gusts up to {{value}} km/h around {{time}}"
+  },
+  "actions": {
+    "share": "Share",
+    "listen": "Listen",
+    "stop": "Stop"
+  },
+  "shareCard": {
+    "title": "Weather today",
+    "footer": "Hewa · weather in Swahili & English",
+    "button": "Share",
+    "close": "Close",
+    "dialogTitle": "Share the weather"
+  },
+  "speech": {
+    "now": "Now {{temp}} degrees, {{condition}}.",
+    "range": "Today's high {{high}}, low {{low}} degrees.",
+    "noVoice": "No Swahili voice is installed on this phone. Install Swahili in your phone's text-to-speech settings (for example Google Speech Services).",
+    "noVoiceTitle": "Voice not available"
+  }
+}

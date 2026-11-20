@@ -1,0 +1,6 @@
+{
+  "placeholder": "Enter city name to search",
+  "noResults": "No place called \"{{query}}\" was found.",
+  "error": "Could not search right now. Check your connection.",
+  "oops": "Oops! {{message}}"
+}

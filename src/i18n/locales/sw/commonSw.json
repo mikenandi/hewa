@@ -1,0 +1,48 @@
+{
+  "conditions": {
+    "clear": "Anga safi",
+    "mainlyClear": "Anga safi kiasi",
+    "partlyCloudy": "Mawingu kiasi",
+    "overcast": "Mawingu mazito",
+    "fog": "Ukungu",
+    "drizzle": "Manyunyu",
+    "freezingDrizzle": "Manyunyu ya barafu",
+    "lightRain": "Mvua nyepesi",
+    "rain": "Mvua",
+    "heavyRain": "Mvua kubwa",
+    "freezingRain": "Mvua ya barafu",
+    "snow": "Theluji",
+    "showers": "Mvua za rasharasha",
+    "heavyShowers": "Rasharasha kubwa",
+    "thunderstorm": "Radi na mvua",
+    "unknown": "—"
+  },
+  "weekdays": [
+    "Jumapili",
+    "Jumatatu",
+    "Jumanne",
+    "Jumatano",
+    "Alhamisi",
+    "Ijumaa",
+    "Jumamosi"
+  ],
+  "weekdaysShort": ["Jpi", "Jtt", "Jnn", "Jtn", "Alh", "Iju", "Jms"],
+  "months": [
+    "Jan",
+    "Feb",
+    "Mac",
+    "Apr",
+    "Mei",
+    "Jun",
+    "Jul",
+    "Ago",
+    "Sep",
+    "Okt",
+    "Nov",
+    "Des"
+  ],
+  "today": "Leo",
+  "now": "Sasa",
+  "back": "Rudi",
+  "dataAttribution": "Taarifa za hewa kutoka Open-Meteo.com (CC BY 4.0)"
+}

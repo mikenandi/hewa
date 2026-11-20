@@ -17,3 +17,6 @@ web-build/
 .metro-health-check*
 
 releases/
+
+# expo-router generated types
+expo-env.d.ts

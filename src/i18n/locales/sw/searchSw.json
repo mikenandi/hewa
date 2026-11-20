@@ -1,0 +1,6 @@
+{
+  "placeholder": "Andika jina la mji kutafuta",
+  "noResults": "Hakuna mahali panapoitwa \"{{query}}\".",
+  "error": "Imeshindwa kutafuta sasa. Angalia mtandao wako.",
+  "oops": "Samahani! {{message}}"
+}

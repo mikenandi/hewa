@@ -1,0 +1,191 @@
+{
+  "feelsLike": "Inahisika kama",
+  "windspeed": "Kasi ya upepo",
+  "humidity": "Unyevu",
+  "offline": "Nje ya mtandao · ilisasishwa {{time}}",
+  "loadError": "Imeshindwa kupakia hali ya hewa. Vuta chini kujaribu tena.",
+  "hourly": "Saa 24 zijazo",
+  "daily": "Utabiri wa siku 10",
+  "details": "Maelezo",
+  "uvIndex": "Kiwango cha UV",
+  "uvLevels": {
+    "low": "Chini",
+    "moderate": "Wastani",
+    "high": "Juu",
+    "veryHigh": "Juu sana",
+    "extreme": "Hatari"
+  },
+  "pressure": "Mgandamizo",
+  "visibility": "Uwezo wa kuona",
+  "dewPoint": "Kiwango cha umande",
+  "precipitation": "Mvua leo",
+  "cloudCover": "Mawingu",
+  "wind": "Upepo",
+  "gusts": "Upepo mkali hadi {{value}} {{unit}}",
+  "from": "Kutoka {{direction}}",
+  "airQuality": "Ubora wa hewa",
+  "aqiLevels": {
+    "good": "Nzuri",
+    "moderate": "Wastani",
+    "sensitive": "Si salama kwa wenye matatizo ya kupumua",
+    "unhealthy": "Si salama",
+    "veryUnhealthy": "Si salama kabisa",
+    "hazardous": "Hatari"
+  },
+  "sun": "Macheo na machweo",
+  "sunrise": "Macheo",
+  "sunset": "Machweo",
+  "daylight": "Saa {{hours}} dakika {{minutes}} za mchana",
+  "lastYear": {
+    "warmer": "Joto la juu leo ni {{diff}}° zaidi ya siku hii mwaka jana.",
+    "cooler": "Joto la juu leo ni {{diff}}° chini ya siku hii mwaka jana.",
+    "same": "Joto la juu leo ni sawa na siku hii mwaka jana."
+  },
+  "farmer": {
+    "title": "Hali ya mkulima",
+    "spray": "Kunyunyizia dawa",
+    "sprayOk": "Wakati mzuri wa kunyunyizia",
+    "sprayWindy": "Upepo mkali — usinyunyizie",
+    "sprayRain": "Mvua inatarajiwa — subiri",
+    "planting": "Kupanda",
+    "plantingMoist": "Udongo una unyevu — ni vizuri kupanda",
+    "plantingRainComing": "Mvua inakuja — ni vizuri kupanda",
+    "plantingDry": "Udongo ni mkavu — mwagilia kwanza",
+    "soilMoisture": "Unyevu wa udongo",
+    "rain7": "Mvua siku 7 zijazo",
+    "et0": "Upotevu wa maji (ET₀)"
+  },
+  "marine": {
+    "title": "Hali ya bahari",
+    "waves": "Mawimbi",
+    "swell": "Mawimbi ya mbali",
+    "period": "Muda wa wimbi",
+    "seaTemp": "Joto la bahari",
+    "maxToday": "Juu zaidi leo {{value}} m",
+    "calm": "Bahari tulivu",
+    "moderate": "Bahari ya wastani",
+    "rough": "Bahari chafu — kuwa makini"
+  },
+  "alerts": {
+    "heavyRain": "Mvua kubwa: takriban mm {{value}} ndani ya saa 24",
+    "strongWind": "Upepo mkali: hadi km/h {{value}}",
+    "extremeHeat": "Joto kali: hadi {{value}}°C",
+    "extremeUv": "Mionzi ya UV ni hatari ({{value}}) — epuka jua la mchana",
+    "thunderstorms": "Radi zinatarajiwa ({{value}}%)",
+    "riverFlood": "Huenda kukawa na mafuriko ya mto karibu nawe siku zijazo",
+    "waterDanger": "Hali hatari majini usiku wa leo — usiende"
+  },
+  "currentLocation": "Mahali ulipo",
+  "high": "Juu",
+  "low": "Chini",
+  "rainChance": "Mvua",
+  "drying": {
+    "title": "Siku ya kuanika",
+    "hint": "Nguo, mahindi, kahawa, mihogo, samaki",
+    "today": "leo",
+    "tomorrow": "kesho",
+    "good": "Nzuri kwa kuanika {{day}}, {{start}} – {{end}}",
+    "fair": "Muda mfupi wa kuanika {{day}}: {{start}} – {{end}}",
+    "poor": "Si siku nzuri ya kuanika {{day}} — unyevu au mawingu mengi",
+    "rainAfter": "Mvua inatarajiwa baada ya {{time}} — anua mapema"
+  },
+  "health": {
+    "title": "Afya",
+    "mosquito": "Shughuli za mbu",
+    "mosquitoLevels": {
+      "low": "Chini",
+      "medium": "Wastani",
+      "high": "Juu"
+    },
+    "mosquitoTips": {
+      "low": "Mbu wachache wanatarajiwa.",
+      "medium": "Lala ndani ya chandarua chenye dawa.",
+      "high": "Lala ndani ya chandarua chenye dawa na mwaga maji yaliyotuama karibu na nyumba."
+    },
+    "mosquitoNote": "Makadirio kutokana na hali ya hewa — si utabiri wa malaria.",
+    "heat": "Joto",
+    "heatNone": "Hakuna joto kali linalotarajiwa leo.",
+    "heatCaution": "Joto kali {{start}} – {{end}} (inahisika {{peak}}°). Kunywa maji na pumzika kivulini.",
+    "heatDanger": "Joto hatari {{start}} – {{end}} (inahisika {{peak}}°). Epuka kazi nzito nje."
+  },
+  "commute": {
+    "title": "Safari zako",
+    "morning": "Safari ya asubuhi",
+    "evening": "Safari ya jioni",
+    "today": "Leo",
+    "tomorrow": "Kesho",
+    "dry": "Kavu — hakuna mvua inayotarajiwa",
+    "maybe": "Huenda mvua ikanyesha ({{probability}}%)",
+    "rain": "Mvua inatarajiwa ({{probability}}%)",
+    "leaveBefore": "Ondoka kabla ya {{time}}",
+    "umbrella": "Beba mwavuli au koti la mvua"
+  },
+  "season": {
+    "title": "Msimu wa mvua",
+    "names": {
+      "vuli": "Mvua za Vuli",
+      "masika": "Mvua za Masika",
+      "msimu": "Mvua za Msimu"
+    },
+    "upcoming": "Kwa kawaida huanza kuanzia {{date}}",
+    "notStarted": "Bado haujaanza",
+    "started": "Ulianza tarehe {{date}}",
+    "provisional": "Umeanza karibuni — kipindi cha ukame bado kinaweza kuufanya mwanzo wa uongo.",
+    "falseStart": "Mwanzo wa uongo: mvua ya tarehe {{date}} ilifuatwa na ukame.",
+    "possibleOnset": "Utabiri: mvua ya kutosha kuanzisha msimu karibu na {{date}}.",
+    "noOnsetSoon": "Hakuna mvua ya kuanzisha msimu ndani ya wiki mbili zijazo.",
+    "drySpell": "Kipindi cha ukame: siku {{days}} bila mvua.",
+    "totalSoFar": "Mvua hadi sasa",
+    "ofNormal": "{{percent}}% ya kawaida",
+    "normalSeason": "Msimu wa kawaida huleta takriban mm {{value}}.",
+    "rule": "Mwanzo wa msimu = mm 20 za mvua ndani ya siku 3, bila ukame wa siku 7 baadaye."
+  },
+  "flood": {
+    "title": "Hatari ya mafuriko ya mto",
+    "normal": "Mito iliyo karibu nawe iko katika viwango vya kawaida.",
+    "elevated": "Mito iliyo karibu nawe itakuwa juu kuliko kawaida karibu na {{date}}.",
+    "high": "Huenda kukawa na mafuriko ya mto karibu na {{date}}. Epuka kingo za mito na barabara zilizofurika.",
+    "detail": "Mtiririko wa juu m³/s {{peak}} · kawaida m³/s {{typical}}"
+  },
+  "water": {
+    "title": "Usalama wa wavuvi",
+    "places": {
+      "victoria": "Ziwa Victoria",
+      "tanganyika": "Ziwa Tanganyika",
+      "nyasa": "Ziwa Nyasa",
+      "coast": "Pwani"
+    },
+    "tonight": "Usiku wa leo",
+    "tomorrowMorning": "Kesho asubuhi",
+    "levels": {
+      "safe": "Salama kwenda",
+      "caution": "Kuwa makini",
+      "danger": "Usiende"
+    },
+    "reasons": {
+      "storms": "dhoruba",
+      "gusts": "upepo mkali",
+      "waves": "mawimbi makubwa"
+    },
+    "because": "Kwa sababu ya {{reasons}}",
+    "gustPeak": "Upepo hadi km/h {{value}} karibu {{time}}"
+  },
+  "actions": {
+    "share": "Shiriki",
+    "listen": "Sikiliza",
+    "stop": "Simamisha"
+  },
+  "shareCard": {
+    "title": "Hali ya hewa leo",
+    "footer": "Hewa · hali ya hewa kwa Kiswahili na Kiingereza",
+    "button": "Shiriki",
+    "close": "Funga",
+    "dialogTitle": "Shiriki hali ya hewa"
+  },
+  "speech": {
+    "now": "Sasa nyuzi {{temp}}, {{condition}}.",
+    "range": "Leo joto la juu nyuzi {{high}}, la chini nyuzi {{low}}.",
+    "noVoice": "Sauti ya Kiswahili haijasakinishwa kwenye simu hii. Sakinisha Kiswahili kwenye mipangilio ya sauti ya simu (kwa mfano Google Speech Services).",
+    "noVoiceTitle": "Sauti haipatikani"
+  }
+}
