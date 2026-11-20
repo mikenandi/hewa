@@ -1,0 +1,11 @@
+{
+  "channelBriefing": "Taarifa ya asubuhi",
+  "channelAlerts": "Tahadhari za hali ya hewa",
+  "briefingTitle": "{{place}} leo: {{high}}° / {{low}}°",
+  "briefingBody": "{{condition}}. Uwezekano wa mvua {{rain}}%.",
+  "alertTitle": "Tahadhari ya hali ya hewa · {{place}}",
+  "channelCommute": "Tahadhari za mvua safarini",
+  "commuteTitle": "{{trip}} {{time}}: {{status}}",
+  "commuteBody": "{{advice}}",
+  "channelInsights": "Vikumbusho vya maarifa"
+}

@@ -6,14 +6,9 @@
     "orientation": "portrait",
     "icon": "./assets/app-icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/hewa-splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#224496"
-    },
-    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.michael.nandi.weatherapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -24,9 +19,9 @@
       "versionCode": 3
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "output": "static"
     },
-
     "extra": {
       "eas": {
         "projectId": "41612fd5-bdde-4176-b664-5be82d20c3cd"
@@ -34,7 +29,6 @@
     },
     "owner": "michael.nandi",
     "plugins": [
-      "expo-font",
       [
         "expo-build-properties",
         {
@@ -43,7 +37,71 @@
             "enableShrinkResourcesInReleaseBuilds": true
           }
         }
-      ]
-    ]
+      ],
+      "expo-router",
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/hewa-splash.png",
+          "resizeMode": "contain",
+          "imageWidth": 200,
+          "backgroundColor": "#224496"
+        }
+      ],
+      "expo-font",
+      "expo-background-task",
+      "expo-sqlite",
+      "expo-localization",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Hewa uses your location to show the weather where you are."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#224496"
+        }
+      ],
+      [
+        "expo-widgets",
+        {
+          "enableAndroid": true,
+          "widgets": [
+            {
+              "name": "HewaWeather",
+              "displayName": "Hewa",
+              "description": "Current weather for your location",
+              "ios": {
+                "supportedFamilies": [
+                  "systemSmall",
+                  "systemMedium"
+                ],
+                "initialLayout": "src/widgets/weather-widget.ios.tsx"
+              },
+              "android": {
+                "targetCellWidth": 2,
+                "targetCellHeight": 2,
+                "resizeMode": "both",
+                "initialLayout": "src/widgets/weather-widget.android.tsx"
+              }
+            }
+          ]
+        }
+      ],
+      "expo-sharing"
+    ],
+    "scheme": "hewa",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/41612fd5-bdde-4176-b664-5be82d20c3cd"
+    }
   }
 }

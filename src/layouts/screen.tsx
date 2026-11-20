@@ -1,38 +1,27 @@
 import React, { ReactNode } from "react";
-import { StatusBar, StyleSheet, View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { LinearGradient } from "expo-linear-gradient";
-import { BottomSvg } from "../components/bottom-svg";
 
 interface ScreenProps {
   children?: ReactNode;
 }
 
+export const GRADIENT = ["#005C97", "#363795"] as const;
+
 export const Screen: React.FC<ScreenProps> = (props) => {
+  const insets = useSafeAreaInsets();
+
   return (
-    <>
-      <StatusBar backgroundColor="#005C97" />
-      <View style={styles.container}>
-        <LinearGradient
-          colors={["#005C97", "#363795"]}
-          style={styles.linearGradient}
-        >
-          <View style={styles.weatherDetailsContainer}>{props.children}</View>
-          <BottomSvg />
-        </LinearGradient>
+    <LinearGradient colors={GRADIENT} style={styles.container}>
+      <View style={[styles.content, { paddingTop: insets.top }]}>
+        {props.children}
       </View>
-    </>
+    </LinearGradient>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  linearGradient: {
-    flex: 1,
-  },
-  weatherDetailsContainer: {
-    flex: 1,
-    // justifyContent: "flex-end", // Align children at the bottom
-  },
+  container: { flex: 1 },
+  content: { flex: 1 },
 });

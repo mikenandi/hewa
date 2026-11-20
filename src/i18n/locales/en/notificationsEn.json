@@ -1,0 +1,11 @@
+{
+  "channelBriefing": "Morning briefing",
+  "channelAlerts": "Weather alerts",
+  "briefingTitle": "{{place}} today: {{high}}° / {{low}}°",
+  "briefingBody": "{{condition}}. {{rain}}% chance of rain.",
+  "alertTitle": "Weather alert · {{place}}",
+  "channelCommute": "Trip rain alerts",
+  "commuteTitle": "{{trip}} at {{time}}: {{status}}",
+  "commuteBody": "{{advice}}",
+  "channelInsights": "Insight reminders"
+}

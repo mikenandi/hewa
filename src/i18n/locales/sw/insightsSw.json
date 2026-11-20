@@ -1,0 +1,178 @@
+{
+  "tabTitle": "Maarifa",
+  "subtitle": "Hali ya hewa ya leo ina maana gani kwako",
+  "topToday": "Muhimu zaidi leo",
+  "planner": "Ratiba ya siku",
+  "plannerHint": "Saa zenye rangi zinaonyesha wakati kila jambo linatokea",
+  "rows": {
+    "rain": "Mvua",
+    "heat": "Joto",
+    "sun": "Jua kali",
+    "mosquito": "Mbu",
+    "exercise": "Mazoezi",
+    "drying": "Kuanika"
+  },
+  "now": "Sasa",
+  "tomorrowPlan": "Kesho",
+  "all": "Maarifa yote",
+  "categories": {
+    "all": "Yote",
+    "health": "Afya",
+    "home": "Nyumbani",
+    "travel": "Safari",
+    "farm": "Shamba na maji"
+  },
+  "severity": {
+    "warning": "Tahadhari",
+    "tip": "Ushauri",
+    "info": "Vizuri kujua"
+  },
+  "why": "Kwa nini?",
+  "hideWhy": "Ficha",
+  "empty": "Hakuna jambo maalum leo — furahia siku yako!",
+  "listen": "Sikiliza maarifa",
+  "stop": "Simamisha",
+  "didYouKnow": "Je, wajua?",
+  "enums": {
+    "today": "leo",
+    "tomorrow": "kesho",
+    "medium": "wastani",
+    "high": "juu",
+    "windy": "kuna upepo mkali",
+    "rain": "mvua inatarajiwa",
+    "calm": "hewa imetulia",
+    "vuli": "Vuli",
+    "masika": "Masika",
+    "msimu": "Msimu"
+  },
+  "items": {
+    "heat": {
+      "title": "Jikinge na joto, kunywa maji",
+      "message": "Inahisika hadi {{peak}} kati ya {{start}} na {{end}}. Kunywa maji mara kwa mara hata kabla ya kuhisi kiu, na pumzika kivulini.",
+      "why": "Mwili hushindwa kupoa joto likizidi 32°C, hasa hewa ikiwa na unyevu."
+    },
+    "uv": {
+      "title": "Jua kali {{start}} – {{end}}",
+      "message": "Kiwango cha UV hadi {{uv}}. Vaa kofia, funika ngozi na waweke watoto kivulini.",
+      "why": "UV ya 8 au zaidi inaweza kuunguza ngozi na kuumiza macho chini ya dakika 20."
+    },
+    "airQuality": {
+      "title": "Hewa si salama leo",
+      "message": "Kiwango cha ubora wa hewa {{aqi}}. Wenye pumu, watoto na wazee wapunguze kukaa nje kwa muda mrefu.",
+      "why": "Chembe ndogo za moshi, vumbi na magari huwasha mapafu kiwango kikizidi 100."
+    },
+    "dust": {
+      "title": "Vumbi hewani",
+      "message": "Funika pua na mdomo kwenye barabara zenye vumbi, na funika chakula.",
+      "why": "Vumbi hewani ni takriban {{dust}} µg/m³ — linatosha kuwasha macho na mapafu."
+    },
+    "mosquito": {
+      "title": "Mbu huuma zaidi baada ya {{sunset}}",
+      "message": "Shughuli za mbu ziko {{level}}. Lala ndani ya chandarua chenye dawa na funika mikono na miguu jioni.",
+      "why": "Hali ya joto na unyevu baada ya mvua husaidia mbu kuzaliana. Mbu wa malaria huuma zaidi usiku."
+    },
+    "treatWater": {
+      "title": "Chemsha au tibu maji ya kunywa",
+      "message": "Mvua kubwa inaweza kusomba uchafu kwenye visima na mabomba. Chemsha au tibu maji ya kunywa na nawa mikono kwa sabuni.",
+      "why": "Takriban mm {{rain}} za mvua zimenyesha karibuni — magonjwa kama kipindupindu huenea zaidi baada ya mvua kubwa na mafuriko."
+    },
+    "coldNight": {
+      "title": "Usiku wa baridi: {{low}}",
+      "message": "Wapatie watoto wachanga, watoto na wazee joto na ukavu usiku huu.",
+      "why": "Baridi ya kiwango hiki ni ya kawaida maeneo ya miinuko na ni ngumu kwa wadogo na wazee."
+    },
+    "warmNight": {
+      "title": "Usiku wa joto na unyevu",
+      "message": "Ruhusu hewa ipite chumbani ikiwa ni salama, na kunywa maji kabla ya kulala.",
+      "why": "Usiku huu joto halitashuka chini ya {{low}}, hivyo mwili hupumzika kwa shida."
+    },
+    "exercise": {
+      "title": "Muda bora wa kutembea au mazoezi: {{time}}",
+      "message": "Saa yenye ubaridi na ukavu zaidi {{day}}, jua likiwa hafifu.",
+      "why": "Imechaguliwa kutoka saa za asubuhi na jioni zisizo na mvua, zenye joto la chini zaidi na UV ndogo."
+    },
+    "lightning": {
+      "title": "Radi zinatarajiwa kuanzia {{time}}",
+      "message": "Kaa ndani wakati wa dhoruba, kaa mbali na miti mirefu, mashamba ya wazi na maji, na chomoa vifaa vya umeme.",
+      "why": "Dhoruba za radi zinatabiriwa. Ukisikia ngurumo, radi iko karibu kiasi cha kukupiga."
+    },
+    "wind": {
+      "title": "Upepo mkali hadi km/h {{gust}}",
+      "message": "Funga vizuri mabati, milango, mabango na vitu vilivyolegea nje.",
+      "why": "Upepo unaozidi km/h 50 unaweza kuezua mabati yaliyolegea na kuvunja matawi."
+    },
+    "rainwater": {
+      "title": "Vuna maji ya mvua",
+      "message": "Takriban mm {{mm}} za mvua zinatarajiwa kuanzia {{time}} {{day}}. Weka vyombo safi nje na safisha mifereji ya paa.",
+      "why": "Kila mm 1 ya mvua kwenye paa la m² 10 huleta takriban lita 10 — takriban lita {{litres}} kutoka mvua hii."
+    },
+    "solarGood": {
+      "title": "Siku nzuri ya kuchaji kwa sola",
+      "message": "Takriban saa {{hours}} za jua. Chaji taa za sola, simu na power bank.",
+      "why": "Paneli za sola huchaji haraka zaidi kwenye jua kali la mchana."
+    },
+    "solarLow": {
+      "title": "Jua kidogo kwa sola leo",
+      "message": "Saa {{hours}} tu za jua. Chaji simu na taa unapopata nafasi na tumia umeme kwa uangalifu usiku.",
+      "why": "Mawingu mazito hupunguza sana nguvu ya paneli za sola."
+    },
+    "drying": {
+      "title": "Kuanika vizuri {{day}}: {{start}} – {{end}}",
+      "message": "Anika nguo au mazao katika muda huu.",
+      "why": "Saa kavu, zenye jua na unyevu mdogo hukausha vitu haraka zaidi."
+    },
+    "bestDay": {
+      "title": "Siku bora wiki hii: {{weekday}}",
+      "message": "Nzuri kwa shughuli za nje kama harusi, gulio au safari — uwezekano wa mvua {{rain}}% tu.",
+      "why": "Imechaguliwa kati ya siku 6 zijazo kwa mvua kidogo zaidi na joto la wastani."
+    },
+    "roads": {
+      "title": "Barabara zinaweza kufurika au kuwa na matope",
+      "message": "Ongeza muda wa safari, usivuke barabara au madaraja yaliyofurika, na endesha polepole.",
+      "why": "Takriban mm {{mm}} za mvua zinatarajiwa — zinatosha kujaza mitaro na kulainisha barabara za vumbi."
+    },
+    "fog": {
+      "title": "Ukungu kuanzia {{time}}",
+      "message": "Endesha ukiwa umewasha taa na acha nafasi zaidi mbele.",
+      "why": "Ukungu unatabiriwa, unaoweza kupunguza uwezo wa kuona hadi mita chache."
+    },
+    "seasonSoon": {
+      "title": "Mvua za {{season}} huenda zikaanza karibu {{date}}",
+      "message": "Andaa mbegu na mashamba — utabiri unaonyesha mvua ya kutosha kuanzisha msimu.",
+      "why": "Mwanzo wa msimu = mm 20 za mvua ndani ya siku 3, bila ukame mrefu baadaye."
+    },
+    "sprayOk": {
+      "title": "Wakati mzuri wa kunyunyizia dawa",
+      "message": "Hewa imetulia na hakuna mvua inayotarajiwa kwa saa kadhaa.",
+      "why": "Dawa hupeperushwa na upepo na kusombwa na mvua; sasa {{reason}}."
+    },
+    "sprayWait": {
+      "title": "Subiri kabla ya kunyunyizia",
+      "message": "Kunyunyizia sasa kutapoteza dawa.",
+      "why": "Dawa haitafanya kazi vizuri kwa sababu {{reason}}."
+    },
+    "moonDark": {
+      "title": "Usiku wa giza (mwezi mchanga)",
+      "message": "Usiku mzuri wa kuvua dagaa kwa taa.",
+      "why": "Mwanga wa mwezi ukiwa mdogo, samaki hukusanyika zaidi kwenye taa."
+    },
+    "moonBright": {
+      "title": "Usiku wa mbalamwezi",
+      "message": "Uvuvi wa dagaa kwa taa huwa mdogo karibu na mwezi mpevu.",
+      "why": "Mwanga mkali wa mwezi hutawanya samaki badala ya kuwavutia kwenye taa."
+    }
+  },
+  "facts": {
+    "humidity": "Hewa yenye unyevu hufanya jasho likauke polepole, hivyo joto huhisika zaidi kuliko kipimajoto kinavyosema.",
+    "thunder": "Ukisikia ngurumo, uko karibu kiasi cha kupigwa na radi. Ingia ndani.",
+    "cloudyUv": "Mawingu hayazuii UV yote — bado unaweza kuungua na jua siku ya mawingu.",
+    "rainLitres": "Mm 1 ya mvua kwenye m² 1 ya paa huleta lita 1 ya maji. Paa la m² 30 hukusanya lita 300 kutoka mm 10 za mvua.",
+    "mosquitoNight": "Mbu wa malaria huuma zaidi kuanzia usiku hadi alfajiri — chandarua ni muhimu zaidi usiku.",
+    "altitude": "Hewa hupoa takriban 6°C kila unapopanda mita 1,000 — ndiyo maana usiku wa Mbeya, Iringa na Arusha una baridi.",
+    "daylight": "Kwa kuwa karibu na ikweta, Tanzania hupata takriban saa 12 za mchana mwaka mzima.",
+    "dewPoint": "Kiwango cha umande huonyesha kiasi cha maji hewani: kikizidi 20°C hewa huhisika nzito na yenye unyevu.",
+    "uvMidday": "Karibu na ikweta, mionzi ya UV huwa mikali zaidi kati ya saa 4 asubuhi na saa 8 mchana — hata kama hujisikii joto."
+  },
+  "notifyToggle": "Vikumbusho vya maarifa",
+  "notifyHint": "Vikumbusho kwa wakati: radi, kuvuna maji, kutibu maji, mbu, baridi, joto, barabara"
+}

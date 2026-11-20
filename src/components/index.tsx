@@ -1,3 +1,4 @@
-export * from "./bottom-svg";
+export * from "./app-text";
 export * from "./loader";
-export * from "./weather-detail";
+export * from "./option-chips";
+export * from "./page-dots";

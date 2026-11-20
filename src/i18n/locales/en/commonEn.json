@@ -1,0 +1,48 @@
+{
+  "conditions": {
+    "clear": "Clear",
+    "mainlyClear": "Mostly clear",
+    "partlyCloudy": "Partly cloudy",
+    "overcast": "Cloudy",
+    "fog": "Fog",
+    "drizzle": "Drizzle",
+    "freezingDrizzle": "Freezing drizzle",
+    "lightRain": "Light rain",
+    "rain": "Rain",
+    "heavyRain": "Heavy rain",
+    "freezingRain": "Freezing rain",
+    "snow": "Snow",
+    "showers": "Showers",
+    "heavyShowers": "Heavy showers",
+    "thunderstorm": "Thunderstorm",
+    "unknown": "—"
+  },
+  "weekdays": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "weekdaysShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+  "months": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "today": "Today",
+  "now": "Now",
+  "back": "Back",
+  "dataAttribution": "Weather data by Open-Meteo.com (CC BY 4.0)"
+}
