@@ -15,7 +15,7 @@
         "foregroundImage": "./assets/app-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.michael.nandi.weatherapp",
+      "package": "com.mn.hewa",
       "versionCode": 3
     },
     "web": {

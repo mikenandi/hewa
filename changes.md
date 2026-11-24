@@ -1,5 +1,20 @@
 # Changes
 
+## Android package rename and build fixes — 24 November 2026
+
+### App identity
+
+- Changed the Android package name from `com.michael.nandi.weatherapp` to **`com.mn.hewa`**. This makes it a new app on Google Play: it needs a new Play Console listing, and phones with the old app will not get updates.
+- EAS created a new signing key for `com.mn.hewa`, stored on Expo's servers.
+- The iOS bundle identifier is unchanged (`com.michael.nandi.weatherapp`).
+
+### Builds
+
+- Added `babel-preset-expo` as a dev dependency. Release builds failed at `createBundleReleaseJsAndAssets` because pnpm's strict layout hid the preset from Babel.
+- Simplified `eas.json`: the build profiles are now `dev`, `preview` and `prod`, and the Android `versionCode` is managed remotely by EAS (`appVersionSource: remote`). The first build with this setup used `versionCode` 4.
+- Added `build-android.sh`, which bumps the app version, builds locally with EAS and saves the result in `../app-builds`. It restores the old version if the build fails.
+- Builds need Node 22.13 or newer (Expo SDK 58), JDK 17 and `ANDROID_HOME` set.
+
 ## Expo SDK 58 upgrade and redesign — 20 November 2026
 
 ### Platform
