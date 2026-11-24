@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face { font-family: Lato; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Lato-Regular.ttf'); font-weight: 400; }
+@font-face { font-family: Lato; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Lato-SemiBold.ttf'); font-weight: 600; }
+@font-face { font-family: Lato; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Lato-Bold.ttf'); font-weight: 700; }
+@font-face { font-family: Poppins; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Poppins-Medium.ttf'); font-weight: 500; }
+@font-face { font-family: Poppins; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Poppins-SemiBold.otf'); font-weight: 600; }
+@font-face { font-family: Poppins; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Poppins-Bold.ttf'); font-weight: 700; }
+@font-face { font-family: MDI; src: url('file:///Users/mac/Desktop/wako-projects/hewa/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf'); }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { overflow: hidden; }
+body { font-family: Lato, sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+.mdi { font-family: MDI; font-style: normal; line-height: 1; display: inline-block; }
+.amber { color: #FFB200; }
+
+.screen { width: 412px; height: 892px; position: relative; overflow: hidden;
+  background: linear-gradient(180deg, #23578f 0%, #224496 45%, #33388f 100%); }
+.status { height: 30px; display: flex; justify-content: space-between; align-items: center;
+  padding: 0 22px; font: 600 13px Lato; opacity: .95; }
+.topbar { display: flex; align-items: center; justify-content: space-between; padding: 10px 20px 4px; }
+.place { font: 600 20px Poppins; display: flex; align-items: center; gap: 6px; }
+.date { font: 400 13px Lato; opacity: .75; margin-top: 2px; }
+.card { background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.14);
+  border-radius: 20px; padding: 14px 16px; margin: 10px 16px; }
+.card h4 { font: 600 14px Poppins; display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.muted { color: rgba(255,255,255,.72); }
+.row { display: flex; align-items: center; justify-content: space-between; }
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; border-radius: 99px;
+  font: 700 12px Lato; }
+.good { background: rgba(76, 217, 100, .2); color: #7CF29A; }
+.warn { background: rgba(255,178,0,.2); color: #FFCB4D; }
+.bad { background: rgba(255,90,90,.22); color: #FF9C9C; }
+.tabbar { position: absolute; left: 0; right: 0; bottom: 0; height: 74px; display: flex;
+  justify-content: space-around; align-items: center; background: rgba(20,30,80,.55);
+  border-top: 1px solid rgba(255,255,255,.12); border-radius: 24px 24px 0 0; }
+.tabbar div { display: flex; flex-direction: column; align-items: center; gap: 3px; font: 600 11px Lato; opacity: .6; }
+.tabbar div.on { opacity: 1; color: #FFB200; }
+.bar { height: 8px; border-radius: 8px; background: rgba(255,255,255,.15); overflow: hidden; }
+.bar > span { display: block; height: 100%; border-radius: 8px; }
+
+.canvas { width: 1080px; height: 1920px; position: relative; overflow: hidden;
+  background: radial-gradient(circle at 88% 6%, rgba(143,208,255,.30) 0, rgba(143,208,255,0) 34%),
+              linear-gradient(170deg, #1f5a95 0%, #224496 50%, #2c3488 100%); }
+.wave { position: absolute; left: -10%; width: 120%; bottom: -260px; height: 760px; border-radius: 50%;
+  background: rgba(16, 95, 160, .55); }
+.head { position: absolute; top: 120px; left: 80px; right: 80px; text-align: center; }
+.head h1 { font: 700 76px/1.12 Poppins; letter-spacing: -1px; }
+.head h1 .dot { color: #FFB200; }
+.head p { font: 400 38px/1.35 Lato; opacity: .85; margin-top: 22px; }
+.phone { position: absolute; left: 50%; top: 520px; width: 778px; height: 1620px; margin-left: -389px;
+  background: #0d1330; border-radius: 96px; padding: 22px;
+  box-shadow: 0 40px 90px rgba(5,10,40,.55), inset 0 0 0 3px rgba(255,255,255,.08); }
+.phone .glass { width: 734px; height: 1589px; border-radius: 76px; overflow: hidden; position: relative; }
+.phone .glass .screen { transform: scale(1.7816); transform-origin: 0 0; }
+.cam { position: absolute; top: 44px; left: 50%; width: 26px; height: 26px; margin-left: -13px;
+  border-radius: 50%; background: #05081a; z-index: 5; }
+
+html,body{width:1080px;height:1920px}</style></head><body><div class="canvas"><div class="wave"></div>
+<div class="head"><h1>Stay safe on land<br>and water<span class='dot'>.</span></h1><p>Storm alerts, lake safety for fishers, floods and commute rain.</p></div>
+<div class="phone"><div class="cam"></div><div class="glass"><div class="screen"><div class="status"><span>9:41</span><span><i class="mdi " style="font-size:14px;">&#984226;</i> <i class="mdi " style="font-size:14px;">&#984489;</i> <i class="mdi " style="font-size:14px;">&#983169;</i></span></div><div class="topbar"><div><div class="place"><i class="mdi " style="font-size:20px;color:#FFB200;">&#983886;</i>Mwanza</div>
+    <div class="date">Monday, 24 November</div></div>
+    <div style="display:flex;gap:16px"><i class="mdi " style="font-size:24px;">&#984446;</i><i class="mdi " style="font-size:24px;">&#983198;</i></div></div>
+<div class="card" style="background:rgba(255,90,90,.18);border-color:rgba(255,120,120,.45)">
+  <h4><i class="mdi " style="font-size:22px;color:#FF9C9C;">&#984702;</i>Severe weather alert</h4>
+  <div style="font:700 17px Poppins">Heavy rain & thunderstorms</div>
+  <div style="font:400 14px/1.45 Lato;margin-top:6px" class="muted">Expected 16:00 – 21:00 · up to 38 mm. Avoid low-lying roads.</div></div>
+<div class="card"><h4><i class="mdi " style="font-size:20px;color:#8fd0ff;">&#986824;</i>Fishers' safety tonight</h4>
+  <div class="row" style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,.08)"><span style="font:700 15px Lato">Lake Victoria</span><span class="pill bad">High storm risk</span></div><div class="row" style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,.08)"><span style="font:700 15px Lato">Lake Tanganyika</span><span class="pill warn">Moderate</span></div><div class="row" style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,.08)"><span style="font:700 15px Lato">Lake Nyasa</span><span class="pill good">Low</span></div><div class="row" style="padding:8px 0;border-bottom:1px solid rgba(255,255,255,.08)"><span style="font:700 15px Lato">Indian Ocean coast</span><span class="pill good">Low · waves 0.8 m</span></div>
+</div>
+<div class="card"><h4><i class="mdi " style="font-size:20px;color:#8fd0ff;">&#984973;</i>River flood risk</h4>
+  <div class="row"><span style="font:400 14px Lato" class="muted">Rufiji River · next 7 days</span><span class="pill warn">Rising</span></div></div>
+<div class="card"><h4><i class="mdi " style="font-size:20px;color:#FFB200;">&#983307;</i>Commute</h4>
+  <div class="row" style="font:400 14px Lato"><span>Morning 07:00</span><span class="pill good">Dry</span></div>
+  <div class="row" style="font:400 14px Lato;margin-top:8px"><span>Evening 17:30</span><span class="pill bad"><i class="mdi " style="font-size:14px;">&#984395;</i> Rain likely</span></div></div><div class="tabbar"><div class="on"><i class="mdi " style="font-size:24px;">&#983774;</i><span>Weather</span></div><div class=""><i class="mdi " style="font-size:24px;">&#983881;</i><span>Search</span></div><div class=""><i class="mdi " style="font-size:24px;">&#984211;</i><span>Settings</span></div></div></div></div></div></div></body></html>

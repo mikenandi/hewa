@@ -1,0 +1,72 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face { font-family: Lato; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Lato-Regular.ttf'); font-weight: 400; }
+@font-face { font-family: Lato; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Lato-SemiBold.ttf'); font-weight: 600; }
+@font-face { font-family: Lato; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Lato-Bold.ttf'); font-weight: 700; }
+@font-face { font-family: Poppins; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Poppins-Medium.ttf'); font-weight: 500; }
+@font-face { font-family: Poppins; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Poppins-SemiBold.otf'); font-weight: 600; }
+@font-face { font-family: Poppins; src: url('file:///Users/mac/Desktop/wako-projects/hewa/assets/fonts/Poppins-Bold.ttf'); font-weight: 700; }
+@font-face { font-family: MDI; src: url('file:///Users/mac/Desktop/wako-projects/hewa/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf'); }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { overflow: hidden; }
+body { font-family: Lato, sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+.mdi { font-family: MDI; font-style: normal; line-height: 1; display: inline-block; }
+.amber { color: #FFB200; }
+
+.screen { width: 412px; height: 892px; position: relative; overflow: hidden;
+  background: linear-gradient(180deg, #23578f 0%, #224496 45%, #33388f 100%); }
+.status { height: 30px; display: flex; justify-content: space-between; align-items: center;
+  padding: 0 22px; font: 600 13px Lato; opacity: .95; }
+.topbar { display: flex; align-items: center; justify-content: space-between; padding: 10px 20px 4px; }
+.place { font: 600 20px Poppins; display: flex; align-items: center; gap: 6px; }
+.date { font: 400 13px Lato; opacity: .75; margin-top: 2px; }
+.card { background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.14);
+  border-radius: 20px; padding: 14px 16px; margin: 10px 16px; }
+.card h4 { font: 600 14px Poppins; display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.muted { color: rgba(255,255,255,.72); }
+.row { display: flex; align-items: center; justify-content: space-between; }
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; border-radius: 99px;
+  font: 700 12px Lato; }
+.good { background: rgba(76, 217, 100, .2); color: #7CF29A; }
+.warn { background: rgba(255,178,0,.2); color: #FFCB4D; }
+.bad { background: rgba(255,90,90,.22); color: #FF9C9C; }
+.tabbar { position: absolute; left: 0; right: 0; bottom: 0; height: 74px; display: flex;
+  justify-content: space-around; align-items: center; background: rgba(20,30,80,.55);
+  border-top: 1px solid rgba(255,255,255,.12); border-radius: 24px 24px 0 0; }
+.tabbar div { display: flex; flex-direction: column; align-items: center; gap: 3px; font: 600 11px Lato; opacity: .6; }
+.tabbar div.on { opacity: 1; color: #FFB200; }
+.bar { height: 8px; border-radius: 8px; background: rgba(255,255,255,.15); overflow: hidden; }
+.bar > span { display: block; height: 100%; border-radius: 8px; }
+
+.fg { width: 1024px; height: 500px; position: relative; overflow: hidden;
+  background: radial-gradient(circle at 92% 0%, rgba(143,208,255,.30) 0, rgba(143,208,255,0) 38%),
+              linear-gradient(120deg, #1f5a95 0%, #224496 55%, #2c3488 100%); }
+.fg .wave { position: absolute; left: -20%; width: 90%; bottom: -330px; height: 520px; border-radius: 50%;
+  background: rgba(16, 95, 160, .55); }
+.brand { position: absolute; left: 72px; top: 96px; }
+.brand .logo { font: 700 104px/1 Lato; letter-spacing: -2px; }
+.brand .logo i { display: inline-block; width: 24px; height: 24px; border-radius: 50%; background: #FFB200; margin-left: 14px; }
+.brand .tag { font: 600 34px/1.25 Poppins; margin-top: 22px; }
+.brand .chips { display: flex; gap: 10px; margin-top: 28px; }
+.brand .chips span { font: 700 18px Lato; padding: 8px 16px; border-radius: 99px; background: rgba(255,255,255,.14); display: flex; align-items: center; gap: 8px; }
+.ph { position: absolute; right: 70px; top: 52px; width: 300px; height: 620px; background: #0d1330; border-radius: 44px;
+  padding: 10px; box-shadow: 0 30px 60px rgba(5,10,40,.5); transform: rotate(-6deg); }
+.ph .glass { width: 280px; height: 600px; border-radius: 36px; overflow: hidden; }
+.ph .glass .screen { transform: scale(.6796); transform-origin: 0 0; }
+
+html,body{width:1024px;height:500px}</style></head><body><div class="fg"><div class="wave"></div>
+<div class="brand"><div class="logo">Hewa<i></i></div>
+<div class="tag">Accurate weather for Tanzania,<br>in Kiswahili and English.</div>
+<div class="chips"><span><i class="mdi " style="font-size:20px;color:#7CF29A;">&#986726;</i>Farmers</span><span><i class="mdi " style="font-size:20px;color:#8fd0ff;">&#986824;</i>Fishers</span><span><i class="mdi " style="font-size:20px;color:#FFB200;">&#983198;</i>Alerts</span></div></div>
+<div class="ph"><div class="glass"><div class="screen"><div class="status"><span>9:41</span><span><i class="mdi " style="font-size:14px;">&#984226;</i> <i class="mdi " style="font-size:14px;">&#984489;</i> <i class="mdi " style="font-size:14px;">&#983169;</i></span></div><div class="topbar"><div><div class="place"><i class="mdi " style="font-size:20px;color:#FFB200;">&#983886;</i>Dar es Salaam</div>
+    <div class="date">Monday, 24 November</div></div>
+    <div style="display:flex;gap:16px"><i class="mdi " style="font-size:24px;">&#984446;</i><i class="mdi " style="font-size:24px;">&#984215;</i></div></div>
+<div style="text-align:center;margin-top:6px">
+  <i class="mdi " style="font-size:140px;">&#984469;</i>
+  <div style="display:flex;justify-content:center;align-items:flex-start;margin-top:-18px">
+    <span style="font:600 104px/1.1 Lato">31</span><span style="font:400 54px Lato;margin-top:8px">°</span></div>
+  <div style="font:600 22px Poppins;margin-top:-4px">Partly cloudy</div>
+  <div class="muted" style="font:400 15px Lato;margin-top:6px">High 32°&nbsp;&nbsp; Low 25°&nbsp;&nbsp; Feels like <b class="amber">35°</b></div>
+</div>
+<div class="card" style="display:flex;justify-content:space-around;padding:14px 6px;margin-top:16px">
+  <div style="text-align:center"><i class="mdi " style="font-size:22px;color:#FFB200;">&#984477;</i><div style="font:700 16px Lato;margin-top:4px">18 km/h</div><div class="muted" style="font:400 12px Lato">Wind</div></div><div style="text-align:center"><i class="mdi " style="font-size:22px;color:#FFB200;">&#984462;</i><div style="font:700 16px Lato;margin-top:4px">74%</div><div class="muted" style="font:400 12px Lato">Humidity</div></div><div style="text-align:center"><i class="mdi " style="font-size:22px;color:#FFB200;">&#984395;</i><div style="font:700 16px Lato;margin-top:4px">20%</div><div class="muted" style="font:400 12px Lato">Rain chance</div></div>
+</div><div class="card"><h4><i class="mdi " style="font-size:18px;color:#FFB200;">&#983376;</i>Next hours</h4><div class="row"><div style="text-align:center;padding:10px 0;width:56px;border-radius:16px;background:rgba(255,255,255,.18)"><div class="muted" style="font:600 12px Lato">Now</div><div style="margin:8px 0"><i class="mdi " style="font-size:26px;">&#984469;</i></div><div style="font:700 15px Lato">31°</div></div><div style="text-align:center;padding:10px 0;width:56px;border-radius:16px;"><div class="muted" style="font:600 12px Lato">13:00</div><div style="margin:8px 0"><i class="mdi " style="font-size:26px;">&#984473;</i></div><div style="font:700 15px Lato">32°</div></div><div style="text-align:center;padding:10px 0;width:56px;border-radius:16px;"><div class="muted" style="font:600 12px Lato">14:00</div><div style="margin:8px 0"><i class="mdi " style="font-size:26px;">&#984473;</i></div><div style="font:700 15px Lato">32°</div></div><div style="text-align:center;padding:10px 0;width:56px;border-radius:16px;"><div class="muted" style="font:600 12px Lato">15:00</div><div style="margin:8px 0"><i class="mdi " style="font-size:26px;">&#984464;</i></div><div style="font:700 15px Lato">31°</div></div><div style="text-align:center;padding:10px 0;width:56px;border-radius:16px;"><div class="muted" style="font:600 12px Lato">16:00</div><div style="margin:8px 0"><i class="mdi " style="font-size:26px;">&#984471;</i></div><div style="font:700 15px Lato">29°</div></div><div style="text-align:center;padding:10px 0;width:56px;border-radius:16px;"><div class="muted" style="font:600 12px Lato">17:00</div><div style="margin:8px 0"><i class="mdi " style="font-size:26px;">&#984470;</i></div><div style="font:700 15px Lato">27°</div></div></div></div><div class="tabbar"><div class="on"><i class="mdi " style="font-size:24px;">&#983774;</i><span>Weather</span></div><div class=""><i class="mdi " style="font-size:24px;">&#983881;</i><span>Search</span></div><div class=""><i class="mdi " style="font-size:24px;">&#984211;</i><span>Settings</span></div></div></div></div></div></div></body></html>
