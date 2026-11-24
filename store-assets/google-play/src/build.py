@@ -221,7 +221,7 @@ def s_swahili():
   <div class="muted" style="font:400 15px Lato;margin-top:6px">Juu 31°&nbsp;&nbsp; Chini 23°&nbsp;&nbsp; Inahisi <b class="amber">33°</b></div>
 </div>
 <div class="card" style="margin-top:16px"><h4>{ic('clock-outline',18,SECONDARY)}Saa za Kiswahili</h4>
-  <div class="row">{''.join(f'<div style="text-align:center;width:72px"><div class="muted" style="font:600 12px Lato">{h}</div><div style="margin:8px 0">{ic(n,26)}</div><div style="font:700 15px Lato">{t}°</div></div>' for h,n,t in [('Saa 1 asubuhi','weather-sunset-up',24),('Saa 4','weather-sunny',29),('Saa 7 mchana','weather-sunny',31),('Saa 10 jioni','weather-partly-cloudy',29)])}</div></div>
+  <div class="row">{''.join(f'<div style="text-align:center;width:72px"><div class="muted" style="font:600 12px/1.3 Lato">{h}</div><div style="margin:8px 0">{ic(n,26)}</div><div style="font:700 15px Lato">{t}°</div></div>' for h,n,t in [('Saa 1<br>asubuhi','weather-sunset-up',24),('Saa 4<br>asubuhi','weather-sunny',29),('Saa 7<br>mchana','weather-sunny',31),('Saa 10<br>jioni','weather-partly-cloudy',29)])}</div></div>
 <div class="card"><h4>{ic('volume-high',18,SECONDARY)}Sikiliza</h4>
   <div style="font:400 14px/1.45 Lato">“Leo Arusha kuna jua kali, nyuzi 29. Hakuna mvua inayotarajiwa.”</div></div>
 <div class="card row" style="padding:12px 16px"><span style="display:flex;gap:10px;align-items:center;font:700 15px Lato">{ic('translate',22,SECONDARY)}Lugha · Language</span>
